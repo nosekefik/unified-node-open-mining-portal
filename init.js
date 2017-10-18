@@ -135,7 +135,7 @@ var buildPoolConfigs = function(){
     poolConfigFiles.forEach(function(poolOptions){
 
         poolOptions.coinFileName = poolOptions.coin;
-    
+    if(poolOptions.auxes!=null){
        for (var i=0; i < poolOptions.auxes.length; i++){
             var auxFilePath = 'coins/' + poolOptions.auxes[i].coin;
             if (!fs.existsSync(auxFilePath)){
@@ -152,7 +152,7 @@ var buildPoolConfigs = function(){
             delete configs[poolOptions.auxcoin.name];
             }
         }
-
+    }
         var coinFilePath = 'coins/' + poolOptions.coinFileName;
         if (!fs.existsSync(coinFilePath)){
             logger.warn('Master', poolOptions.coinFileName, 'could not find file: ' + coinFilePath);
