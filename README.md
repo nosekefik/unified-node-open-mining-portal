@@ -36,7 +36,7 @@ production usage because it can and ~~often~~ will break your setup and require 
 
 ### Features
 
-* For the pool server it uses the highly efficient [node-merged-pool](//github.com/sigwo/node-merged-pool) module which
+* For the pool server it uses the highly efficient [stratum-pool](//github.com/nosekefik/stratum-pool) module which
 supports vardiff, POW & POS, transaction messages, anti-DDoS, IP banning, [several hashing algorithms](//github.com/sigwo/node-merged-pool#hashing-algorithms-supported).
 
 * This implementation is [merged mining capable](https://en.bitcoin.it/wiki/Merged_mining_specification). You may add AUXPoW coins to the main chain configurations. 
