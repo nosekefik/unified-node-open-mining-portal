@@ -1,0 +1,7 @@
+
+{
+    "name": "PayWay",
+    "symbol": "PYY",
+    "algorithm": "scrypt",
+    "icon":"https://paywaycoin.io/assets/images/logo.png"
+}

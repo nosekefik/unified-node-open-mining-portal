@@ -1,0 +1,11 @@
+{
+    "name": "Magnatum",
+    "symbol": "MGT",
+    "algorithm": "skunk",
+    "site": "http://magnatum.io/",
+    "blockExplorer": {
+        "block": "http://explorer.magnatum.io/",
+        "tx": "http://explorer.magnatum.io/tx/",
+        "address": "http://explorer.magnatum.io/address/"
+    }
+}

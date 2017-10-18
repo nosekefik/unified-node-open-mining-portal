@@ -1,0 +1,6 @@
+{
+    "name": "ZCoin",
+    "symbol": "XZC",
+    "algorithm": "lyra2z",
+    "icon":"https://files.coinmarketcap.com/static/img/coins/200x200/zcoin.png"
+}

@@ -1,0 +1,8 @@
+
+{
+    "name": "CreativeCoin",
+    "symbol": "CREA",
+    "algorithm": "keccak-c",
+"explorer":"https://chainz.cryptoid.info/crea/",
+"icon":"https://chainz.cryptoid.info/logo/crea.png"
+}
